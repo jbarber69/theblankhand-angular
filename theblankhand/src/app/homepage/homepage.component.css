@@ -1,0 +1,89 @@
+a {
+  font-style: italic;
+  /*font-size: 20;*/
+  color: white;
+  text-decoration: none;
+}
+
+.shop {
+  /*position: absolute;*/
+  text-align: center;
+  /*left: 0px;*/
+  bottom: 26%;
+  font-size: 35pt;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 100px;
+  letter-spacing: 3px;
+  text-shadow: 3px;
+  transition: text-shadow 1s;
+}
+
+.shop:hover {
+  text-shadow:
+    5px 5px black,
+    5px 5px black,
+    5px 5px black;
+}
+
+
+.instagram {
+  /*position: absolute;*/
+  text-align: center;
+  bottom: 26%;
+  /*left: 200px;*/
+  font-size: 35pt;
+  /*font-family: Oswald;*/
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 100px;
+  letter-spacing: 3px;
+  text-shadow: none;
+  transition: text-shadow 1s;
+}
+
+.instagram:hover {
+  text-shadow:
+    5px 5px black,
+    6px 6px black,
+    7px 7px black;
+}
+
+.videos {
+  /*position: absolute;*/
+  text-align: center;
+  bottom: 26%;
+  /*left: 300px;*/
+  font-size: 35pt;
+  /*font-family: Oswald;*/
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 100px;
+  letter-spacing: 3px;
+  text-shadow: none;
+  transition: text-shadow 1s;
+}
+
+.videos:hover {
+  text-shadow:
+    5px 5px black,
+    6px 6px black,
+    7px 7px black;
+}
+
+/*body {
+  height: 100%
+}
+
+.bg {
+
+  background-image: url("../../assets/background.jpg");
+
+
+  height: 100%;
+
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}*/
