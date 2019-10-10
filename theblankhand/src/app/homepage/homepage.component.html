@@ -1,42 +1,7 @@
-<!--
-  ______ __  __ ______ ____   __     ___     _   __ __ __  __  __ ___     _   __ ____
- /_  __// / / // ____// __ ) / /    /   |   / | / // //_/ / / / //   |   / | / // __ \
-  / /  / /_/ // __/  / __  |/ /    / /| |  /  |/ // ,<   / /_/ // /| |  /  |/ // / / /
- / /  / __  // /___ / /_/ // /___ / ___ | / /|  // /| | / __  // ___ | / /|  // /_/ /
-/_/  /_/ /_//_____//_____//_____//_/  |_|/_/ |_//_/ |_|/_/ /_//_/  |_|/_/ |_//_____/
+<div class="desktop-container" *ngIf="!isMobile; else mobileContainer">
+  <app-homepage-desk></app-homepage-desk>
+</div>
 
-
-© 2019, THEBLANKHAND VINTAGE
-THEBLANKHAND.CO.UK
-@THEBLANKHAND
-@J_BARBER69
-FOR ANY QUERIES EMAIL THEBLANKHAND@HOTMAIL.CO.UK
-
--->
-
-<body>
-    <table class="centre">
-      <tr>
-        <th>
-          <div class="shop">
-            <a href="https://shop.theblankhand.co.uk">Shop</a>
-          </div>
-        </th>
-        <th>
-          <div class="instagram">
-            <a href="https://www.instagram.com/theblankhand/">Instagram</a>
-          </div>
-        </th>
-        <th>
-          <div class="videos">
-            <a href="https://soundcloud.com/user-908319862">Soundcloud</a>
-          </div>
-        </th>
-        <th>
-          <div class="instagram">
-            <a href="https://www.depop.com/theblankhand/">Depop</a>
-          </div>
-        </th>
-      </tr>
-    </table>
-</body>
+<ng-template #mobileContainer>
+  <app-homepage-mob></app-homepage-mob>
+</ng-template>
