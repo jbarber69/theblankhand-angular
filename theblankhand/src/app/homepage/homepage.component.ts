@@ -8,10 +8,12 @@ import {AppStateService} from '../app-state-service.service';
 })
 export class HomepageComponent {
 
-  public isMobile: boolean;
+  isMobile: boolean = this.applicationState.getMobileRes();
+  // window.alert(this.isMobile)
 
-  size(){
-    this.isMobile = this.applicationState.getMobileRes()
+  size() {
+    this.isMobile = this.applicationState.getMobileRes();
+    window.alert(this.isMobile);
   }
 
   constructor(private applicationState: AppStateService) {
