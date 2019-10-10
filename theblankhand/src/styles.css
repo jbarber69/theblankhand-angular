@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+html {
+  /*background-image: url('./assets/background.jpg');
+  background-size: cover;*/
+  /*background-color: #ebebeb*/
+  background-color: white;
+}
+
+.centre{
+  border-spacing: 25px 0em;
+   margin: 0;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   -ms-transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%);
+}
