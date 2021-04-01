@@ -1,7 +1,7 @@
-<div class="desktop-container" *ngIf="!isMobile; else mobileContainer">
+<div class="desktop-container" *ngIf="!isMobile">
   <app-homepage-desk></app-homepage-desk>
 </div>
 
-<ng-template #mobileContainer>
+<div class="mobile-container" *ngIf="isMobile">
   <app-homepage-mob></app-homepage-mob>
-</ng-template>
+</div>

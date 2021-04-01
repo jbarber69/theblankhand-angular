@@ -7,11 +7,5 @@ html {
 }
 
 .centre{
-  border-spacing: 25px 0em;
-   margin: 0;
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   -ms-transform: translate(-50%, -50%);
-   transform: translate(-50%, -50%);
+  /* border-spacing: 25px 0em; */
 }
