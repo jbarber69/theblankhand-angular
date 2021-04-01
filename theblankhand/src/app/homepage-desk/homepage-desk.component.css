@@ -1,72 +1,37 @@
 a {
   font-style: italic;
-  /*font-size: 20;*/
-  color: #67b0ff;
+  font-size: 30pt;
+  color: #707070;
   text-decoration: none;
 }
 
-.shop {
-  /*position: absolute;*/
-  text-align: center;
-  /*left: 0px;*/
-  bottom: 26%;
-  font-size: 35pt;
+
+.links {
+  text-align: left;
   text-transform: uppercase;
-  font-weight: bold;
-  line-height: 100px;
-  letter-spacing: 3px;
-  text-shadow: 3px;
-  transition: text-shadow 1s;
-}
-
-.shop:hover {
-  text-shadow:
-    5px 5px #ffafe7,
-    6px 6px #ffafe7,
-    7px 7px #ffafe7;
-}
-
-
-.instagram {
-  /*position: absolute;*/
-  text-align: center;
-  bottom: 26%;
-  /*left: 200px;*/
-  font-size: 35pt;
-  /*font-family: Oswald;*/
-  text-transform: uppercase;
-  font-weight: bold;
-  line-height: 100px;
+  /* line-height: 100px; */
   letter-spacing: 3px;
   text-shadow: none;
   transition: text-shadow 1s;
 }
 
-.instagram:hover {
+.links:hover {
   text-shadow:
-    5px 5px #ffafe7,
-    6px 6px #ffafe7,
-    7px 7px #ffafe7;
+    5px 5px #65B2FF,
+    6px 6px #65B2FF,
+    7px 7px #65B2FF;
 }
 
-.videos {
-  /*position: absolute;*/
-  text-align: center;
-  bottom: 26%;
-  /*left: 300px;*/
-  font-size: 35pt;
-  /*font-family: Oswald;*/
-  text-transform: uppercase;
-  font-weight: bold;
-  line-height: 100px;
-  letter-spacing: 3px;
-  text-shadow: none;
-  transition: text-shadow 1s;
+.homepage{
+  width: 95%;
+  height: auto;
 }
 
-.videos:hover {
-  text-shadow:
-    5px 5px #ffafe7,
-    6px 6px #ffafe7,
-    7px 7px #ffafe7;
+.parent{
+  display: inline-flex;
+  height: 100%
+}
+
+.image{
+  margin-left: 30px;
 }
